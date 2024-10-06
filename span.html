@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Usage of span</title>
+        
+    </head>
+    <body>
+        <center>
+        <div style="background-color: rgb(229, 161, 195) ;height: 5000px; width: 700px;">
+            <form>
+                <center>
+                    <table>
+                        <h2>Registration Form</h2>
+                <label>Enter Name:</label>
+                <input type="text" placeholder="Maha.J" required/><br><br>
+                <label>Enter Password:</label>
+                <input type="text"  required/><br><br>
+                <label>Date of Birth:</label>
+                <input type="date" required/> <br><br>
+                <label>Age:</label>
+                <input type="text" required/> <br><br>
+                <label>Select Degree :</label>
+                <input type="text" list="option" name="option name" required/><br><br>
+                <datalist id="option">
+                    <option>CSE</option>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>MECH</option>
+                    <option>AIDS</option>
+                    <option>IT</option>
+                </datalist>
+                <label>Gender:</label>
+                <input type="radio" name="gender"/>Male
+                <input type="radio" name="gender"/>Female
+                <input type="radio" name="gender"/>Others<br><br>
+                <label>select Course:</label>
+                <input type="checkbox" name="course"/>Python
+                <input type="checkbox" name="course"/>SOL
+                <input type="checkbox" name="course"/>HTML
+                <input type="checkbox" name="course"/>CSS
+                <input type="checkbox" name="course"/>PHP
+                <input type="checkbox" name="course"/>JS<br><br>
+                <label>Suggestions</label><br><br>
+                <textarea cols="25" rows="10"></textarea><br><br>
+                <button type="button" onclick="login()"></button>
+            </table>
+            </center>
+            </form>
+        </center>
+        </div>
+    </body>
+</html>
